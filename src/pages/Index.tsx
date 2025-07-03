@@ -313,15 +313,19 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
+                <p>✉️ info@mytreebirds.com</p>
                 <p>📍 123 Learning Lane</p>
-                <p>📞 (555) 123-4567</p>
+                <p>Sea Point</p>
+                <p>Cape Town</p>
+  
+                <p>📞 (081) 427-4567</p>
                 <p>✉️ info@mytreebirds.com</p>
               </div>
             </div>
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 My Tree Birds Day Care. All rights reserved.</p>
+            <p>&copy; 2025 My Tree Birds Day Care. All rights reserved.</p>
           </div>
         </div>
       </footer>
