@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { Card, from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, TreePine, Bird, Star, Palette, Play, Search, Laptop, Users, Clock, Utensils, ArrowRight } from "lucide-react";
 
