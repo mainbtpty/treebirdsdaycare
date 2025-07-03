@@ -314,8 +314,7 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
                 <p>✉️ info@mytreebirds.com</p>
-                <p>📍 123 Learning Lane</p>
-                <p>Sea Point</p>
+                <p>📍123 Learning Lane.Sea Point</p>
                 <p>Cape Town</p>
   
                 <p>📞 (081) 427-4567</p>
