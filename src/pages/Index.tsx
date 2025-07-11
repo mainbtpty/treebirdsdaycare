@@ -313,7 +313,7 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p>✉️ info@mytreebirds.com</p>
+                <p>✉️ info@mythreebirds.com</p>
                 <p>📍 77 Regent Road La Rhone Building Seapoint.</p>
                 <p>   Cape Town</p>
                 <p>📞 (067) 087 8822</p>
