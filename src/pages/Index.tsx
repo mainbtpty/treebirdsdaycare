@@ -1,7 +1,8 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Heart, TreePine, Bird, Star, Palette, Play, Search, Laptop, Users, Clock, Utensils, ArrowRight } from "lucide-react";
+import { Heart, Bird, Star, Palette, Play, Search, Laptop, Users, Clock, Utensils, ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
@@ -12,11 +13,12 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="flex items-center space-x-1">
-                <TreePine className="h-8 w-8 text-green-600" />
-                <Bird className="h-6 w-6 text-blue-500" />
+                <Bird className="h-6 w-6 text-green-600" />
+                <Bird className="h-7 w-7 text-blue-500" />
+                <Bird className="h-6 w-6 text-yellow-500" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">My Tree Birds</h1>
+                <h1 className="text-xl font-bold text-gray-800">My Three Little Birds</h1>
                 <p className="text-xs text-gray-600">Day Care</p>
               </div>
             </div>
@@ -35,16 +37,25 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="home" className="relative py-20 lg:py-32 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/lovable-uploads/8abdf7c7-0ec7-4492-8f31-95a1d59dd40a.png" 
+            alt="Children playing with blocks" 
+            className="w-full h-full object-cover opacity-10"
+          />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex justify-center items-center space-x-2 mb-6">
-              <TreePine className="h-12 w-12 text-green-600 animate-pulse" />
-              <Bird className="h-10 w-10 text-blue-500 animate-bounce" />
+              <Bird className="h-10 w-10 text-green-600 animate-bounce" />
+              <Bird className="h-12 w-12 text-blue-500 animate-pulse" />
+              <Bird className="h-10 w-10 text-yellow-500 animate-bounce" />
               <Heart className="h-8 w-8 text-pink-500 animate-pulse" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 animate-fade-in">
-              My Tree Birds
+              My Three Little Birds
               <span className="block text-green-600">Day Care</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto animate-fade-in">
@@ -64,8 +75,16 @@ const Index = () => {
       </section>
 
       {/* About Us Section */}
-      <section id="about" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="about" className="py-20 bg-white relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
+          <img 
+            src="/lovable-uploads/61c335af-53b5-4d54-a35d-a72d012552c3.png" 
+            alt="Children playing together" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Us</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto"></div>
@@ -80,7 +99,7 @@ const Index = () => {
                 </div>
                 <h4 className="text-xl font-semibold text-green-700 mb-4">Nurturing Young Children</h4>
                 <p className="text-gray-600 leading-relaxed">
-                  At My Tree Birds Day Care, we are dedicated to providing a nurturing and inclusive environment for young children. Our curriculum is designed to foster creativity and curiosity through interactive learning methods, incorporating play-based activities, early childhood development techniques, and sensory exploration.
+                  At My Three Little Birds Day Care, we are dedicated to providing a nurturing and inclusive environment for young children. Our curriculum is designed to foster creativity and curiosity through interactive learning methods, incorporating play-based activities, early childhood development techniques, and sensory exploration.
                 </p>
                 <p className="text-gray-600 leading-relaxed mt-4">
                   We believe in nurturing children's character alongside their early education, offering enriching programs in arts, music, and language development. Our commitment is evident through engaging activities, dynamic learning experiences, and community engagement that signify our focus on holistic growth and empowerment.
@@ -96,7 +115,7 @@ const Index = () => {
                 </div>
                 <h4 className="text-xl font-semibold text-blue-700 mb-4">Building Bright Futures</h4>
                 <p className="text-gray-600 leading-relaxed">
-                  With a rich history of nurturing young children, My Tree Birds Day Care has been a cornerstone of early childhood development for many years. Our journey has been characterized by an unwavering commitment to providing quality care and educational experiences for young children.
+                  With a rich history of nurturing young children, My Three Little Birds Day Care has been a cornerstone of early childhood development for many years. Our journey has been characterized by an unwavering commitment to providing quality care and educational experiences for young children.
                 </p>
                 <p className="text-gray-600 leading-relaxed mt-4">
                   We have consistently adapted to meet the evolving needs of early childhood education, ensuring that our little ones receive the best foundation for their future. Our legacy is defined by a tradition of excellence in early childhood development and a nurturing environment that has shaped numerous young minds.
@@ -114,8 +133,26 @@ const Index = () => {
       </section>
 
       {/* Programs Section */}
-      <section id="programs" className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="programs" className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
+        {/* Background Pattern with Children Images */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-10 left-10 w-32 h-32 rounded-full overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1544747118-6b1c00e3e2e4?w=300&h=300&fit=crop" 
+              alt="Happy children" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute bottom-20 right-20 w-40 h-40 rounded-full overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=300&h=300&fit=crop" 
+              alt="Children learning" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Programs</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto"></div>
@@ -170,7 +207,7 @@ const Index = () => {
             <Card className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div className="text-center">
                 <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TreePine className="h-8 w-8 text-green-600" />
+                  <Star className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">STEM Education</h3>
                 <Badge className="bg-green-100 text-green-700 mb-4">Future Ready</Badge>
@@ -200,8 +237,17 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="services" className="py-20 bg-white relative overflow-hidden">
+        {/* Background decoration with children imagery */}
+        <div className="absolute top-0 left-0 w-full h-full opacity-5">
+          <img 
+            src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=300&fit=crop" 
+            alt="Children in daycare" 
+            className="absolute top-20 right-10 w-64 h-48 object-cover rounded-full"
+          />
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto"></div>
@@ -245,7 +291,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Daily Care</h3>
                 <p className="text-gray-600 mb-6">Comprehensive daily care including supervision, learning activities, and personal attention for each child.</p>
-                <Button className="w-full bg-blue-600 hover:blue-700">
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">
                   Book Now
                 </Button>
               </div>
@@ -255,8 +301,17 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section id="contact" className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-10">
+          <img 
+            src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400&h=300&fit=crop" 
+            alt="Happy children" 
+            className="w-full h-full object-cover rounded-tr-full"
+          />
+        </div>
+        
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Stay Connected With Us</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 mb-8">
@@ -280,10 +335,11 @@ const Index = () => {
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <TreePine className="h-8 w-8 text-green-400" />
-                <Bird className="h-6 w-6 text-blue-400" />
+                <Bird className="h-6 w-6 text-green-400" />
+                <Bird className="h-7 w-7 text-blue-400" />
+                <Bird className="h-6 w-6 text-yellow-400" />
                 <div>
-                  <h3 className="text-xl font-bold">My Tree Birds</h3>
+                  <h3 className="text-xl font-bold">My Three Little Birds</h3>
                   <p className="text-sm text-gray-400">Day Care</p>
                 </div>
               </div>
@@ -313,19 +369,17 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p>✉️ info@mytreebirds.com</p>
+                <p>✉️ info@mythreelittlebirds.com</p>
                 <p>📍 123 Learning Lane</p>
                 <p>Sea Point</p>
                 <p>Cape Town</p>
-  
                 <p>📞 (081) 427-4567</p>
-                <p>✉️ info@mytreebirds.com</p>
               </div>
             </div>
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 My Tree Birds Day Care. All rights reserved.</p>
+            <p>&copy; 2025 My Three Little Birds Day Care. All rights reserved.</p>
           </div>
         </div>
       </footer>
