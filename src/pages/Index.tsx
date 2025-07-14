@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -43,7 +42,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/8abdf7c7-0ec7-4492-8f31-95a1d59dd40a.png" 
             alt="Children playing with blocks" 
-            className="w-full h-full object-cover opacity-10"
+            className="w-full h-full object-cover opacity-25"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,7 +76,7 @@ const Index = () => {
       {/* About Us Section */}
       <section id="about" className="py-20 bg-white relative overflow-hidden">
         {/* Background Image */}
-        <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
+        <div className="absolute top-0 right-0 w-1/2 h-full opacity-20">
           <img 
             src="/lovable-uploads/61c335af-53b5-4d54-a35d-a72d012552c3.png" 
             alt="Children playing together" 
@@ -135,18 +134,25 @@ const Index = () => {
       {/* Programs Section */}
       <section id="programs" className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
         {/* Background Pattern with Children Images */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-10 left-10 w-32 h-32 rounded-full overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-10 left-10 w-40 h-40 rounded-full overflow-hidden shadow-lg">
             <img 
               src="https://images.unsplash.com/photo-1544747118-6b1c00e3e2e4?w=300&h=300&fit=crop" 
               alt="Happy children" 
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute bottom-20 right-20 w-40 h-40 rounded-full overflow-hidden">
+          <div className="absolute bottom-20 right-20 w-48 h-48 rounded-full overflow-hidden shadow-lg">
             <img 
               src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=300&h=300&fit=crop" 
               alt="Children learning" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full overflow-hidden shadow-md">
+            <img 
+              src="https://images.unsplash.com/photo-1609450760556-9a7ae23b6961?w=300&h=300&fit=crop" 
+              alt="Children playing" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -239,11 +245,16 @@ const Index = () => {
       {/* Services Section */}
       <section id="services" className="py-20 bg-white relative overflow-hidden">
         {/* Background decoration with children imagery */}
-        <div className="absolute top-0 left-0 w-full h-full opacity-5">
+        <div className="absolute top-0 left-0 w-full h-full opacity-15">
           <img 
             src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=300&fit=crop" 
             alt="Children in daycare" 
-            className="absolute top-20 right-10 w-64 h-48 object-cover rounded-full"
+            className="absolute top-20 right-10 w-80 h-60 object-cover rounded-2xl shadow-lg"
+          />
+          <img 
+            src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400&h=300&fit=crop" 
+            alt="Children eating together" 
+            className="absolute bottom-20 left-10 w-72 h-54 object-cover rounded-2xl shadow-lg"
           />
         </div>
         
@@ -303,11 +314,18 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
         {/* Background Image */}
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-10">
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-25">
           <img 
             src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400&h=300&fit=crop" 
             alt="Happy children" 
             className="w-full h-full object-cover rounded-tr-full"
+          />
+        </div>
+        <div className="absolute top-0 right-0 w-1/3 h-1/3 opacity-20">
+          <img 
+            src="/lovable-uploads/8abdf7c7-0ec7-4492-8f31-95a1d59dd40a.png" 
+            alt="Children playing with blocks" 
+            className="w-full h-full object-cover rounded-bl-full"
           />
         </div>
         
