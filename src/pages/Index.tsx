@@ -17,7 +17,7 @@ const Index = () => {
                 <Bird className="h-6 w-6 text-yellow-500" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">My Three Little Birds</h1>
+                <h1 className="text-xl font-bold text-gray-800">My Three Birds</h1>
                 <p className="text-xs text-gray-600">Day Care</p>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Index = () => {
               <Heart className="h-8 w-8 text-pink-500 animate-pulse" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 animate-fade-in">
-              My Three Little Birds
+              My Three Birds
               <span className="block text-green-600">Day Care</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto animate-fade-in">
@@ -98,7 +98,7 @@ const Index = () => {
                 </div>
                 <h4 className="text-xl font-semibold text-green-700 mb-4">Nurturing Young Children</h4>
                 <p className="text-gray-600 leading-relaxed">
-                  At My Three Little Birds Day Care, we are dedicated to providing a nurturing and inclusive environment for young children. Our curriculum is designed to foster creativity and curiosity through interactive learning methods, incorporating play-based activities, early childhood development techniques, and sensory exploration.
+                  At My Three Birds Day Care, we are dedicated to providing a nurturing and inclusive environment for young children. Our curriculum is designed to foster creativity and curiosity through interactive learning methods, incorporating play-based activities, early childhood development techniques, and sensory exploration.
                 </p>
                 <p className="text-gray-600 leading-relaxed mt-4">
                   We believe in nurturing children's character alongside their early education, offering enriching programs in arts, music, and language development. Our commitment is evident through engaging activities, dynamic learning experiences, and community engagement that signify our focus on holistic growth and empowerment.
@@ -114,7 +114,7 @@ const Index = () => {
                 </div>
                 <h4 className="text-xl font-semibold text-blue-700 mb-4">Building Bright Futures</h4>
                 <p className="text-gray-600 leading-relaxed">
-                  With a rich history of nurturing young children, My Three Little Birds Day Care has been a cornerstone of early childhood development for many years. Our journey has been characterized by an unwavering commitment to providing quality care and educational experiences for young children.
+                  With a rich history of nurturing young children, My Three Birds Day Care has been a cornerstone of early childhood development for many years. Our journey has been characterized by an unwavering commitment to providing quality care and educational experiences for young children.
                 </p>
                 <p className="text-gray-600 leading-relaxed mt-4">
                   We have consistently adapted to meet the evolving needs of early childhood education, ensuring that our little ones receive the best foundation for their future. Our legacy is defined by a tradition of excellence in early childhood development and a nurturing environment that has shaped numerous young minds.
@@ -357,11 +357,11 @@ const Index = () => {
                 <Bird className="h-7 w-7 text-blue-400" />
                 <Bird className="h-6 w-6 text-yellow-400" />
                 <div>
-                  <h3 className="text-xl font-bold">My Three Little Birds</h3>
+                  <h3 className="text-xl font-bold">My Three Birds</h3>
                   <p className="text-sm text-gray-400">Day Care</p>
                 </div>
               </div>
-              <p className="text-gray-400">Where Little Ones Learn, Grow, and Flourish</p>
+              <p className="text-gray-400">Where Ones Learn, Grow, and Flourish</p>
             </div>
             
             <div>
@@ -387,7 +387,7 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p>✉️ info@mythreelittlebirds.com</p>
+                <p>✉️ info@mythreebirds.com</p>
                 <p>📍77 Regent Road La Rhone</p>
                  <p> Building Seapoint.</p>
                 <p>  Cape Town</p>
@@ -397,7 +397,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 My Three Little Birds Day Care. All rights reserved.</p>
+            <p>&copy; 2025 My Three Birds Day Care. All rights reserved.</p>
           </div>
         </div>
       </footer>
