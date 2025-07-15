@@ -42,7 +42,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/8abdf7c7-0ec7-4492-8f31-95a1d59dd40a.png" 
             alt="Children playing with blocks" 
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover opacity-60"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,7 +76,7 @@ const Index = () => {
       {/* About Us Section */}
       <section id="about" className="py-20 bg-white relative overflow-hidden">
         {/* Background Image */}
-        <div className="absolute top-0 right-0 w-1/2 h-full opacity-20">
+        <div className="absolute top-0 right-0 w-1/2 h-full opacity-60">
           <img 
             src="/lovable-uploads/61c335af-53b5-4d54-a35d-a72d012552c3.png" 
             alt="Children playing together" 
@@ -314,14 +314,14 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gradient-to-br from-green-50 to-blue-50 relative overflow-hidden">
         {/* Background Image */}
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-25">
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-60">
           <img 
             src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400&h=300&fit=crop" 
             alt="Happy children" 
             className="w-full h-full object-cover rounded-tr-full"
           />
         </div>
-        <div className="absolute top-0 right-0 w-1/3 h-1/3 opacity-20">
+        <div className="absolute top-0 right-0 w-1/3 h-1/3 opacity-50">
           <img 
             src="/lovable-uploads/8abdf7c7-0ec7-4492-8f31-95a1d59dd40a.png" 
             alt="Children playing with blocks" 
@@ -388,10 +388,10 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
                 <p>✉️ info@mythreelittlebirds.com</p>
-                <p>📍 123 Learning Lane</p>
-                <p>Sea Point</p>
-                <p>Cape Town</p>
-                <p>📞 (081) 427-4567</p>
+                <p>📍77 Regent Road La Rhone</p>
+                 <p> Building Seapoint.</p>
+                <p>  Cape Town</p>
+                <p>📞(067) 087 8822 </p>
               </div>
             </div>
           </div>
